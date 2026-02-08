@@ -123,6 +123,11 @@ a:hover {
   background-color: #003b6d;
 }
 
+#main_header .search {
+  justify-self: end;
+  padding-right: 1em;
+}
+
 #logo_h1 {
   width: 50%;
   height: auto;
