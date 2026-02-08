@@ -1,0 +1,139 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+em {
+  font-size: large;
+}
+
+main {
+  margin: 1em;
+  line-height: 1.65em;
+}
+
+footer {
+  text-align: center;
+  font-size: 1em;
+}
+
+a:hover {
+  background: #003b6d;
+  color: #ffffff;
+}
+
+.cat_grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  border: solid 0.15em #003b6d;
+}
+
+.cat_grid img {
+  width: 100%;
+  height: 100%;
+}
+
+.main_content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.text_main {
+  flex: 1;
+}
+
+.bird_box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.bird_text {
+  flex: 1;
+}
+
+.bird_img {
+  margin: 2em;
+}
+
+.main_grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, 1fr);
+  border: solid 0.15em #003b6d;
+  float: right;
+}
+
+.main_grid img {
+  width: 100%;
+  height: 100%;
+}
+
+.search {
+  text-align: left;
+  padding: 1em;
+}
+
+.google_font {
+  font-family: "Italiana", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.sub_head {
+  font-family: "Italiana", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: larger;
+}
+
+.search i {
+  color: white;
+}
+
+.footer_logo {
+  width: 2%;
+  height: auto;
+}
+
+.contact {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contact form {
+  flex: 1;
+}
+
+.contact img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+}
+
+#text_cat {
+  margin: 0.25em;
+}
+
+#main_header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  align-items: center;
+  column-gap: 2em;
+  background-color: #003b6d;
+}
+
+#logo_h1 {
+  width: 50%;
+  height: auto;
+  padding: 0.5em;
+}
+
+#slogan {
+  color: white;
+  text-align: center;
+  font-family: "Italiana", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 1.35em;
+}

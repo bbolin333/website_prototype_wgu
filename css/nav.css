@@ -1,0 +1,44 @@
+/* NAVIGATION MENU FORMATTING */
+
+#nav_menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+#nav_menu ul li {
+  margin: 0em;
+  padding: 0em;
+  flex-basis: 100%;
+  font-size: 1em;
+}
+
+#nav_menu ul li a {
+  border: 0.1em solid #bdbdbd;
+  display: block;
+  padding: 0.5em 1.2em;
+  text-decoration: none;
+  background-color: #003b6d;
+  color: #ffffff;
+}
+
+
+#nav_menu ul li a:hover {
+  background: #6699cc;
+  color: #000000;
+}
+
+#nav_menu li.active a {
+  background: #6699cc;
+  color: #000000;
+}
+
+/* SLICK-NAV */
+#mobile_menu {
+  display: none;
+}
