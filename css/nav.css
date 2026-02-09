@@ -27,18 +27,13 @@
   color: #ffffff;
 }
 
-
 #nav_menu ul li a:hover {
   background: #6699cc;
   color: #000000;
+  font-size: 1em;
 }
 
 #nav_menu li.active a {
   background: #6699cc;
   color: #000000;
-}
-
-/* SLICK-NAV */
-#mobile_menu {
-  display: none;
 }

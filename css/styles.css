@@ -1,5 +1,8 @@
 * {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 em {
@@ -17,15 +20,18 @@ footer {
 }
 
 a:hover {
-  background: #003b6d;
-  color: #ffffff;
+  font-size: 1.1em;
+}
+
+a:visited {
+  color: #0000ff;
 }
 
 .cat_grid {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: repeat(3, 1fr);
-  border: solid 0.15em #003b6d;
+  border: solid 0.25em #003b6d;
 }
 
 .cat_grid img {
@@ -52,15 +58,20 @@ a:hover {
 }
 
 .bird_img {
-  margin: 2em;
+  flex: 1;
+  max-width: 40%;
+  height: auto;
+  border: solid #003b6d 0.6em;
+  margin: 0.5em;
 }
 
 .main_grid {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(3, 1fr);
-  border: solid 0.15em #003b6d;
+  border: solid 0.25em #003b6d;
   float: right;
+  margin: 1em;
 }
 
 .main_grid img {
@@ -68,9 +79,13 @@ a:hover {
   height: 100%;
 }
 
-.search {
-  text-align: left;
-  padding: 1em;
+.dog_pg {
+  display: flex;
+  align-items: flex-start;
+}
+
+.dog_text {
+  flex: 1;
 }
 
 .google_font {
@@ -87,7 +102,7 @@ a:hover {
 }
 
 .search i {
-  color: white;
+  color: #ffffff;
 }
 
 .footer_logo {
@@ -106,8 +121,10 @@ a:hover {
 
 .contact img {
   flex: 1;
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
+  border: solid #003b6d 0.6em;
+  margin: 0.5em;
 }
 
 #text_cat {
@@ -141,4 +158,10 @@ a:hover {
   font-weight: bolder;
   font-style: normal;
   font-size: 1.35em;
+}
+
+#dog_img {
+  width: 20%;
+  height: auto;
+  margin: 1em;
 }

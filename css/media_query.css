@@ -1,0 +1,101 @@
+@media only screen and (max-width: 735px) {
+  #slogan {
+    color: white;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  #logo_h1 {
+    width: 80%;
+    height: auto;
+    padding: 0.5em;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .search input {
+    width: 5em;
+    padding: 0.3em;
+    font-size: 0.9em;
+  }
+  .main_content {
+    flex-direction: column;
+  }
+
+  .main_grid {
+    display: none;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    border: solid 0.25em #003b6d;
+  }
+
+  .footer_logo {
+    width: 3%;
+    height: auto;
+  }
+
+  .bird_box {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  #logo_h1 {
+    width: 100%;
+    height: auto;
+    padding: 0.5em;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  #nav_menu ul li {
+    margin: 0em;
+    padding: 0em;
+    flex-basis: 100%;
+    font-size: 0.6em;
+  }
+
+  .dog_pg {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .search i {
+    display: none;
+  }
+  #slogan {
+    color: white;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 0.75em;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  footer {
+    text-align: center;
+    font-size: 0.65em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #nav_menu ul li {
+    margin: 0em;
+    padding: 0em;
+    flex-basis: 100%;
+    font-size: 0.4em;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+}
